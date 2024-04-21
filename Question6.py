@@ -1,0 +1,1 @@
+#Grocery Shopping: You're at the grocery store and need to calculate the total cost of your items. Write a program that prompts you for the price and quantity of each item, then calculates the subtotal, tax (assuming a fixed rate), and final total.
