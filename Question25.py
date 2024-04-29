@@ -12,5 +12,5 @@ c=0
 while num>0:
     c=c+1
     num=num//10
-    print(f'Count of digit or length of number is {c}')
+print(f'Count of digit or length of number is {c}')
 

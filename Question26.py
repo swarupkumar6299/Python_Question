@@ -5,4 +5,4 @@ while num>0:
     r=num%10
     s=s+r
     num = num//10 
-    print(f'sum of digit {s}')
+print(f'sum of digit {s}')
