@@ -37,3 +37,43 @@ for r in range(1,6):
         else:
             print(" ",end=" ")
     print()
+print("-----------------------------------------------------------------")
+for r in range (1,6):
+    for c in range(1,6):
+        if c>=r:
+            print("* ",end=' ')
+        else:
+            print("$",end=' ')
+    print()
+print("---------------------------------------------------------------------")
+for r in range(1,6):
+    for c in range(1,6):
+        if c>=r:
+            print(r,end=' ')
+        else:
+            print("*",end=' ')
+    print()
+print("------------------------------------------------------------------------")
+for r in range(1,6):
+    for c in range(1,6):
+        if c>=r:
+            print(r,end=' ')
+        else:
+            print(' ',end=' ')
+    print()
+print("--------------------------------------------------------------------------")
+for r in range(5,0,-1):
+    for c in range(5,0,-1):
+        if c>=r:
+            print(r,end=' ')
+        else:
+            print(' ',end=' ')
+    print()
+print("------------------------------------------------------------------------------")
+for r in range(5,0,-1):
+    for c in range(5,0,-1):
+        if c<=r:
+            print(r,end=' ')
+        else:
+            print(' ',end=' ')
+    print()
