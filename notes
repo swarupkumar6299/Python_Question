@@ -1,0 +1,2 @@
+Tuple is an immutable sequence data type. After creating tuple changes cannot be done.
+Tuple does not provide the following methods.
